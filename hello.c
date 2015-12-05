@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (int argc, char *argc[])
+int main (int argc, char *argv[])
 {
     printf("Hello, world!!!\n");
     return 666;
