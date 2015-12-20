@@ -1,0 +1,2 @@
+bin_PROGRAMS=hello Falce True logname whoami
+program_SOURCES=hello.c Falce.c True.c logname.c whoami.c

@@ -1,0 +1,16 @@
+
+
+
+AC_INIT(, Suvorova.E.A-Lab_1 )
+AC_PROG_CC
+AC_CONFIG_FILES(Makefile)
+AC_CHECK_HEADERS(stdio.h)
+AC_CHECK_HEADERS(stdlib.h)
+AC_CHECK_HEADERS(pwd.h)
+AC_CHECK_LIB(c,printf)
+AC_CHECK_LIB(c,getenv)
+AC_CHECK_LIB(c,geteuid)
+AC_CHECK_LIB(c,getpwuid)
+AC_CHECK_LIB(c,puts)
+AM_INIT_AUTOMAKE
+AC_OUTPUT
